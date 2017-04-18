@@ -113,7 +113,7 @@
 <meta property="og:site_name" content="栉风沐雨">
 <meta property="og:description" content="1 HEXO与Github简介1.1 HEXO框架Hexo 是一个快速、简洁高效且完全免费的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。可以充分满足你自由自在DIY的欲望。详细参考官方网站。 1.2 Github在线托管仓库GitHub是一个通过Git进行版本控制的软件源代码托管服务，由GitHub公司（曾称Logical Awe">
 <meta property="og:image" content="http://yoursite.com/2017/04/18/HEXO-Github搭建免费博客/github_example.png">
-<meta property="og:updated_time" content="2017-04-18T14:30:15.000Z">
+<meta property="og:updated_time" content="2017-04-18T15:10:13.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO+Github搭建免费博客">
 <meta name="twitter:description" content="1 HEXO与Github简介1.1 HEXO框架Hexo 是一个快速、简洁高效且完全免费的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。可以充分满足你自由自在DIY的欲望。详细参考官方网站。 1.2 Github在线托管仓库GitHub是一个通过Git进行版本控制的软件源代码托管服务，由GitHub公司（曾称Logical Awe">
@@ -222,7 +222,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/首页" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -231,8 +231,18 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
-          <a href="/归档" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -242,7 +252,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/标签" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -252,31 +262,11 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/关于" rel="section">
+          <a href="/about" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-search">
-          <a href="/搜索" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/公益404" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
           </a>
         </li>
       
@@ -436,6 +426,7 @@
 <h2 id="1-2-Github在线托管仓库"><a href="#1-2-Github在线托管仓库" class="headerlink" title="1.2 Github在线托管仓库"></a>1.2 Github在线托管仓库</h2><p>GitHub是一个通过Git进行版本控制的软件源代码托管服务，由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。</p>
 <p>截止到2015年，GitHub已经有超过九百万注册用户和2110万代码库。事实上已经成为了世界上最大的代码存放网站和开源社区。<br>详细参见：wiki-github——<a href="https://zh.wikipedia.org/wiki/GitHub" target="_blank" rel="external">https://zh.wikipedia.org/wiki/GitHub</a></p>
 <p>Github Pages免费的静态站点，其特点：免费托管、自带主题、支持自制页面等。</p>
+<a id="more"></a>
 <h1 id="2-依托Github-Pages搭建本地免费网站测试"><a href="#2-依托Github-Pages搭建本地免费网站测试" class="headerlink" title="2 依托Github Pages搭建本地免费网站测试"></a>2 依托Github Pages搭建本地免费网站测试</h1><h2 id="2-1-github准备"><a href="#2-1-github准备" class="headerlink" title="2.1 github准备"></a>2.1 github准备</h2><ul>
 <li><p>注册github账号</p>
 </li>
@@ -483,6 +474,12 @@
 <ul>
 <li>图片本地存储，放弃七牛<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://www.jianshu.com/p/c2ba9533088a</div></pre></td></tr></table></figure>
 </li>
+</ul>
+</li>
+<li><p>新建标签，分类，about等</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo new page tags</div><div class="line">hexo new page categories</div><div class="line">hexo new page about</div></pre></td></tr></table></figure>
+<ul>
+<li>修改index.md即可</li>
 </ul>
 </li>
 </ul>
@@ -631,7 +628,7 @@
 
           
             <div class="site-state-item site-state-posts">
-              <a href="/归档">
+              <a href="/archives">
                 <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">日志</span>
               </a>
