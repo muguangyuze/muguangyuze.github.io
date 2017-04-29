@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[javafor循环实例]]></title>
+      <url>%2F2017%2F04%2F29%2Fjavafor%E5%BE%AA%E7%8E%AF%E5%AE%9E%E4%BE%8B%2F</url>
+      <content type="text"><![CDATA[Java for( ; ; ){} 练习，较为经典的打印1234567891011121314151617181920212223/* 练习7： * * * * * * * * * * * * * * **/public class JavaCycle&#123; public static void main(String args[])&#123; System.out.println(&quot;============================================&quot;); for(int x=1;x&lt;6;x++)&#123; for(int y=1;y&lt;x;y++)&#123; System.out.print(&quot; &quot;); &#125; for(int z=x;z&lt;=5;z++)&#123; System.out.print(&quot;* &quot;); &#125; System.out.println(); &#125; &#125;&#125; 结果显示]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[学习知识体系]]></title>
       <url>%2F2017%2F04%2F27%2F%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%2F</url>
       <content type="text"><![CDATA[由于前段时间已经半生不熟的把github+hexo搞定了，鉴于不是计算机出身，觉得可以对web page做简单的应用，作为写作的地点，分享自己的一些经验和心得。 1**My Study Acknowlodge System.**]]></content>
