@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[AboutHydrology]]></title>
+      <url>%2F2017%2F04%2F30%2FAboutHydrology%2F</url>
+      <content type="text"><![CDATA[有必要跟着国外的AboutHydrology教授学习他的水文课程 课程地址 另外，欢迎访问其在google bloger上的专业网站，更新频繁。 1.AboutHydrology网站地址 2.相关网站1 3.相关网站2]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[javafor循环实例]]></title>
       <url>%2F2017%2F04%2F29%2Fjavafor%E5%BE%AA%E7%8E%AF%E5%AE%9E%E4%BE%8B%2F</url>
       <content type="text"><![CDATA[Java for( ; ; ){} 练习，较为经典的打印1234567891011121314151617181920212223/* 练习7： * * * * * * * * * * * * * * **/public class JavaCycle&#123; public static void main(String args[])&#123; System.out.println(&quot;============================================&quot;); for(int x=1;x&lt;6;x++)&#123; for(int y=1;y&lt;x;y++)&#123; System.out.print(&quot; &quot;); &#125; for(int z=x;z&lt;=5;z++)&#123; System.out.print(&quot;* &quot;); &#125; System.out.println(); &#125; &#125;&#125; 结果显示]]></content>
