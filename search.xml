@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[PS之选择区域进行填充]]></title>
+      <url>%2F2017%2F07%2F14%2FPS%E4%B9%8B%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F%E8%BF%9B%E8%A1%8C%E5%A1%AB%E5%85%85%2F</url>
+      <content type="text"><![CDATA[PS技巧记录之选择区域进行填充颜色 最近接到组里的一个任务（基坑降水水资源论证相关），涉及到作图，即如下几个位置的标识： 1、水资源论证分析范围 2、取水水源论证范围 3、取水影响论证范围 4、退水影响范围 考虑到本人PS小白，确实是折腾了好一阵，尝试了很多方法，这里仅记录下来较为方便的方法： google map或 baidu map 搜索某地（一般是用来确定水资源论证分析范围（一般按行政区划进行划定）），一般地图会给出其范围，截图之； 采用工具为Chrome插件lightshot截图工具， 优点是不仅可以拉选显示分辨率，而且可以对截图进行相关的编辑，如下图所示 缺点是需要及时对编辑的进行保存，不能diy线型和字体 从地方水资源（水功能）区划图或者地下水资源区划图截取建设项目所在地水资源区划位置，认定为取水水源论证范围， 取水影响论证范围暂时不提（一般为基坑半径2×10m范围） 退水影响范围（一般以取排水位置的水体作为认定对象，如本实例排在南湖，则整个南湖区域可以作为退水影响范围的划定） 重点PS过程记录 photoshop打开截取的图片，选择快速选择工具 比如选择整个洪山区的范围，图示阴影部分 photoshop右侧区域选择背景色 右键填充 透明度选择&lt;100%(不然完全遮住了，看不见底图了) 生成情况 上最终制作的两张图，用于报告]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[MyNASACount]]></title>
       <url>%2F2017%2F07%2F09%2FMyNASACount%2F</url>
       <content type="text"><![CDATA[Profile Information Username: muguangyuze Passwords: Yuan Email Address: muguangyuze@gmail.com Organization: HHU ZZU Country: China User Type: Ordinary Application Creator: False Study Area: Other Affiliation: Education Member Since: 26 Sep 2016 14:25:10PM Allow Email Notifications from Applications: True Agreed To Meris EULA: False Agreed To Sentinel-3 EULA: False]]></content>
